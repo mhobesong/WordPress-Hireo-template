@@ -9,3 +9,5 @@ Hireo WordPress Theme
 - [counterup](https://github.com/bfintal/Counter-Up)
 - [manific-popup](https://dimsemenov.com/plugins/magnific-popup/)
 - [slick](https://kenwheeler.github.io/slick/)
+- [bootstrap-select](https://developer.snapappointments.com/bootstrap-select/)
+- [bootstrap-slider](https://seiyria.com/bootstrap-slider/)
