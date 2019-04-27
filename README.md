@@ -1,0 +1,2 @@
+# Hireo
+Hireo WordPress Theme
