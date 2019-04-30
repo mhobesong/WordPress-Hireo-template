@@ -10,6 +10,62 @@ body, h1, h2, h3, h4, h5, h6, input[type="text"], input[type="password"], input[
     font-family: Nunito,helveticaneue,helvetica neue,Helvetica,Arial,sans-serif;
     text-transform: none;
 }
+
+/****************** Form Controls ******************/
+input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+	padding-right: 20px;
+    outline: none;
+    font-size: 16px;
+    color: gray;
+    margin: 0 0 16px;
+	margin-bottom: 16px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fff;
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
+}
+
+/**************** Input groups *******************/
+.input-with-icon{
+	position: relative;
+}
+
+.input-with-icon input{
+	padding-right: 45px;
+	display: inline-block;
+	margin: 0;	
+}
+
+.input-with-icon .icon{
+	position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 50%;
+  background: #fff;
+  font-size: 20px;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 5px;
+  transform: translateY(-50%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
 body {
     color: #666;
     font-size: 16px;
@@ -17,20 +73,44 @@ body {
     background-color: #fff;
 }
 
-/************** Top nav **************/
-nav{
+/************** Select input class **************/
+
+.bootstrap-select .btn{
+  height: 48px;
+  line-height: 48px;
+  padding: 0 10px;
+  outline: none;
+  font-size: 16px;
+  color: gray;
+  margin: 0 0 16px;
+  margin-bottom: 16px;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff;
+  font-weight: 500;
+  opacity: 1;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
 }
 
+.bootstrap-select{
+  width:100% !important;
+}
+
+/************** Top nav **************/
 nav.top-nav{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width:100%;
     z-index: 999;
-    padding: 0;
+    padding: 0 35px;
     box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
     font-size: 16px;
-    height: 87px;
+    height: 82px;
     background-color: #fff; 
 }
 
@@ -288,19 +368,91 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
   }
 }
 
-/****************** Left column ******************/
-.left-colum.fixed {
-	overflow-y:scroll;
-	height: 100vh;
-	width:340px;
-	padding: 40px;
-	position:fixed;
-	top:0;
-	left:0;
+/****************** Notifications *****************/
+.notifications{
+	float: right;
+    border-left: 1px solid #e0e0e0;
+	padding: 0 30px;
+	padding-top: 33px;
+	height: 82px;
+}
+
+/****************** Notifications *****************/
+.profile-status{
+	float: right;
+    border-left: 1px solid #e0e0e0;
+	padding: 0 30px;
+	padding-top: 12px;
+	height: 82px;
 }
 
 /****************** Left column ******************/
+.left-colum.fixed {
+	height: 90vh;
+	width:340px;
+	padding: 40px;
+	position:fixed;
+	top:83px;
+	left:0;
+	background: #fafafa;
+}
+
+.left-colum.fixed h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.left-colum.fixed .input-with-icon{
+    margin-bottom: 20px;
+}
+
+.left-colum .left-column-item{
+	margin-bottom: 50px;
+	display: blcok;
+}
+
+.left-colum .margin-spacing {
+    margin-bottom: 150px;
+}
+
+/****************** right column ******************/
 .right-colum {
 	overflow-y:scroll;
 	width:100%;
+}
+
+/****************** Badges ******************/
+.badge.badge-primary {
+	color: #fff;
+	background: #2a41e8;
+}
+
+.badge.badge-notification {
+	position: relative;
+	top: -12px;
+	left: -12px;
+}
+
+.online-status.online {
+	padding: 6px;
+	border-radius: 48px;
+	height: 14px;
+	font-size: 0px;
+	border: 2px solid #fff;
+	position: relative;
+	left: -12px;
+	bottom: -14px;
+	background-color: #38b653;
+}
+
+/****************** Color classes ******************/
+.btn-primary{
+	color: #fff;
+	background-color: #2a41e8;
+	border-color: #2a41e8;
+}
+
+/****************** Slider color ******************/
+.slider-handle {
+    background: #2a41e8 !important;
 }
