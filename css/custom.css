@@ -11,6 +11,11 @@ body, h1, h2, h3, h4, h5, h6, input[type="text"], input[type="password"], input[
     text-transform: none;
 }
 
+h3.page-title {
+    font-size: 20px;
+    line-height: 32px;
+}
+
 /****************** Form Controls ******************/
 input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
     height: 48px;
@@ -32,6 +37,10 @@ input, input[type="text"], input[type="password"], input[type="email"], input[ty
     border-radius: 4px;
     border: none;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
+}
+
+button, input[submit], .btn {
+    font-size: 16px;
 }
 
 /**************** Input groups *******************/
@@ -124,11 +133,27 @@ nav #logo{
 }
 
 nav #logo img {
-    height: 42px;
-    width: auto;
     top: 50%;
     position: relative;
     transform: translate3d(0,-50%,0);
+}
+@media only screen and (max-width: 992px) {
+	nav #logo{
+		padding-right: 0;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 992px) {
+	nav #logo img {
+		width: 100px;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 992px) {
+	nav #logo img {
+		height: 42px;
+		width: auto;
+	}
 }
 
 nav .nav.pages{
@@ -385,8 +410,18 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
 	padding-top: 12px;
 	height: 82px;
 }
+@media only screen and (max-width: 992px) {
+	.profile-status{
+		padding: 20px 10px;
+	}
+	.profile-status img{
+		height: auto;
+		width: 40px;
+	}
+}
 
 /****************** Left column ******************/
+/*
 .left-colum.fixed {
 	height: 90vh;
 	width:340px;
@@ -396,29 +431,68 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
 	left:0;
 	background: #fafafa;
 }
+*/
+.left-colum {
+	padding: 120px 40px 0 40px;
+	background: #fafafa;
+}
 
-.left-colum.fixed h3 {
+.left-colum h3 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.left-colum.fixed .input-with-icon{
+.left-colum .input-with-icon{
     margin-bottom: 20px;
 }
 
 .left-colum .left-column-item{
 	margin-bottom: 50px;
-	display: blcok;
+	display: block;
 }
 
 .left-colum .margin-spacing {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
+#fix-search-button .col-md-3 div {
+    padding: 40px;
+    background: #fafafa;
+}
+
+#fix-search-button {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+}
+
+@media only screen and (min-width: 992px) {
+	.left-colum {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.left-colum {
+		height: 100%;
+	}
+}
 /****************** right column ******************/
 .right-colum {
-	overflow-y:scroll;
-	width:100%;
+	padding: 120px 40px 0 40px;
+}
+
+@media only screen and (min-width: 992px) {
+	.right-colum {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.right-colum {
+		height: 100%;
+	}
 }
 
 /****************** Badges ******************/

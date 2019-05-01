@@ -11,16 +11,19 @@
                 </a>
             </div>
             
-            <ul class="nav pages">
+            <ul class="nav pages hidden-xs hidden-sm">
                 <?php wp_list_pages(['sort_column'=>'menu_order', 'title_li'=>NULL]);?>
             </ul>
 
 			<div class="profile-status">
+				<i class="far fa-bell fa-xs hidden-md hidden-lg"><span class="badge badge-primary badge-notification">2</span></i>
+				<i class="far fa-envelope fa-xs hidden-md hidden-lg"><span class="badge badge-primary badge-notification">2</span></i>
+
 				<img src="<?= get_avatar_url(wp_get_current_user()->ID, ['size'=>55]);?>" alt="..." class="img-circle">
 				<span class="online-status online"> </span>
 			</div>
 
-			<div class="notifications">
+			<div class="notifications hidden-sm hidden-xs">
 				<i class="far fa-bell fa-lg"><span class="badge badge-primary badge-notification">2</span></i>
 				<i class="far fa-envelope fa-lg"><span class="badge badge-primary badge-notification">2</span></i>
 			</div>
