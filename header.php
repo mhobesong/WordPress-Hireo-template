@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
+    <head lang="en">
+		<meta charset="utf-8">
         <?php wp_head(); ?>
     </head>
     <body>
@@ -11,7 +12,7 @@
                 </a>
             </div>
             
-            <ul class="nav pages hidden-xs hidden-sm">
+            <ul class="nav pages">
                 <?php wp_list_pages(['sort_column'=>'menu_order', 'title_li'=>NULL]);?>
             </ul>
 
