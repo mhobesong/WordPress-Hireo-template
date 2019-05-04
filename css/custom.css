@@ -708,15 +708,16 @@ input:checked + .checkbox-slider:before {
 	margin-left: auto;
 }
 
-.verify-badge {
-    background: #38b653;
-    border-radius: 50%;
-    font-size: 14px;
-    padding: 6px;
-    color: #fff;
-    position: relative;
-    top: -25px;
-    left: -6px;
+.verified-badge:after {
+  content: "\1f5f8";
+  background: #38b653;
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 3px 6px;
+  color: #fff;
+  position: relative;
+  bottom: -97px;
+  left: 36px;
 }
 
 .freelancer-name h4, .freelancer-name h4 a {
