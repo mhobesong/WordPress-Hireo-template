@@ -113,7 +113,7 @@
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith <img class="flag" src="<?= get_template_directory_uri(); ?>/images/flags/gb.svg" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></i></a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith <img class="flag" src="https://www.countryflags.io/be/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></i></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
@@ -165,7 +165,7 @@
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith <i class="glyphicon glyphicon-ok verify-badge"></i></a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith </i><img class="flag" src="https://www.countryflags.io/lr/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
@@ -215,12 +215,12 @@
 										<!-- Avatar -->
 										<div class="freelancer-avatar">
 											<div class="verified-badge"></div>
-											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="img-circle"></a>
+											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/64.jpg" alt="" class="img-circle"></a>
 										</div>
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith </a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith <img class="flag" src="https://www.countryflags.io/mf/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
@@ -267,12 +267,12 @@
 										<!-- Avatar -->
 										<div class="freelancer-avatar">
 											<div class="verified-badge"></div>
-											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="img-circle"></a>
+											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/74.jpg" alt="" class="img-circle"></a>
 										</div>
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith <i class="glyphicon glyphicon-ok verify-badge"></i></a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith </i><img class="flag" src="https://www.countryflags.io/pe/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
@@ -323,12 +323,12 @@
 										<!-- Avatar -->
 										<div class="freelancer-avatar">
 											<div class="verified-badge"></div>
-											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="img-circle"></a>
+											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/40.jpg" alt="" class="img-circle"></a>
 										</div>
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith <i class="glyphicon glyphicon-ok verify-badge"></i></a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith </i><img class="flag" src="https://www.countryflags.io/ph/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
@@ -367,12 +367,12 @@
 										<!-- Avatar -->
 										<div class="freelancer-avatar">
 											<div class="verified-badge"></div>
-											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="img-circle"></a>
+											<a href="single-freelancer-profile.html"><img width=100 src="https://randomuser.me/api/portraits/men/73.jpg" alt="" class="img-circle"></a>
 										</div>
 
 										<!-- Name -->
 										<div class="freelancer-name">
-											<h4><a href="single-freelancer-profile.html">Tom Smith <i class="glyphicon glyphicon-ok verify-badge"></i></a></h4>
+											<h4><a href="single-freelancer-profile.html">Tom Smith </i><img class="flag" src="https://www.countryflags.io/hr/flat/64.png" class="img-rounded" width=20 alt="" data-tippy-placement="top" data-tippy="" data-original-title="United Kingdom"></a></h4>
 											<span>UI/UX Designer</span>
 										</div>
 
