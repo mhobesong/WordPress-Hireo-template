@@ -11,3 +11,7 @@ Hireo WordPress Theme
 - [slick](https://kenwheeler.github.io/slick/)
 - [bootstrap-select](https://developer.snapappointments.com/bootstrap-select/)
 - [bootstrap-slider](https://seiyria.com/bootstrap-slider/)
+
+## pages
+
+- [http://www.vasterad.com/themes/hireo/freelancers-grid-layout-full-page.html](http://www.vasterad.com/themes/hireo/freelancers-grid-layout-full-page.html)
