@@ -1074,3 +1074,56 @@ nav{
     opacity: .5;
     transform: translate3d(0,-0.5px,0);
 }
+
+/****************** Skills cloud ******************/
+.skill-cloud{
+  margin: 15px 0px;
+}
+
+.skill-cloud-item{
+  background-color: #eee;
+  padding: 6px 15px;
+  display: inline-block;
+  border-radius: 4px; 
+  cursor: pointer;
+  margin: 3px 1px;
+  color: #777;
+  font-size: 14.7px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.skill-cloud-item label{
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: inherit;
+}
+
+.skill-cloud-item label input{
+  display: none;
+}
+
+.skill-cloud-item.active{
+  background: #2a41e8;
+
+}
+
+.skill-cloud-item.active{
+  color: #fff;
+}
+
+.skill-cloud-item.active::before{
+  content: "\2714";
+  padding-right: 5px;
+  font-size: 14.7px;
+  transition: .3s;
+}
+
+.skill-cloud-item::before{
+  content: "";
+  padding-right: 0;
+  color: #fff;
+  font-size: 0px;
+  transition: .3s;
+}
