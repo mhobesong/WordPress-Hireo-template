@@ -239,7 +239,7 @@
 											<div class="star-rating" data-rating="4.9">
 												<span class="star"></span>
 												<span class="star"></span>
-												<span class="star"></span>
+												<span class="star half"></span>
 												<span class="star empty"></span>
 												<span class="star empty"></span>
 											</div>
@@ -293,7 +293,7 @@
 												<span class="star"></span>
 												<span class="star"></span>
 												<span class="star"></span>
-												<span class="star"></span>
+												<span class="star half"></span>
 											</div>
 										</div>
 									</div>
