@@ -440,22 +440,22 @@
 						<ul class="footer-social-links">
 							<li>
 								<a href="#" data-tippy-placement="top" data-tippy="" data-original-title="Facebook">
-									<i class="icon-brand-facebook-f"></i>
+								<i class="fab fa-facebook-f"></i>
 								</a>
 							</li>
 							<li>
 								<a href="#" data-tippy-placement="top" data-tippy="" data-original-title="Twitter">
-									<i class="icon-brand-twitter"></i>
+								<i class="fab fa-twitter"></i>
 								</a>
 							</li>
 							<li>
 								<a href="#" data-tippy-placement="top" data-tippy="" data-original-title="Google Plus">
-									<i class="icon-brand-google-plus-g"></i>
+								<i class="fab fa-google-plus-g"></i>
 								</a>
 							</li>
 							<li>
 								<a href="#" data-tippy-placement="top" data-tippy="" data-original-title="LinkedIn">
-									<i class="icon-brand-linkedin-in"></i>
+								<i class="fab fa-linkedin-in"></i>
 								</a>
 							</li>
 						</ul>
