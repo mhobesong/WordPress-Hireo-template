@@ -42,7 +42,7 @@
 					</div>
 
 					<div class="skill-cloud">
-						<div class="skill-cloud-item active"><label>front-end-dev<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>front-end-dev<input type="checkbox"></label></div>
 						<div class="skill-cloud-item"><label>angular<input type="checkbox"></label></div>
 						<div class="skill-cloud-item"><label>React<input type="checkbox"></label></div>
 						<div class="skill-cloud-item"><label>Vue js<input type="checkbox"></label></div>
