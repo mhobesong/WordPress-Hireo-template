@@ -41,10 +41,20 @@
 						<input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
 					</div>
 
+					<div class="skill-cloud">
+						<div class="skill-cloud-item active"><label>front-end-dev<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>angular<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>React<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>Vue js<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>web app<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>design<input type="checkbox"></label></div>
+						<div class="skill-cloud-item"><label>wordpress<input type="checkbox"></label></div>	
+					</div>
+
 					<div class="left-column-item">
 						<h3>skills</h3>
 						<div class="input-with-icon">
-							<input type="text" class="" placeholder="add more skills	" aria-describedby="sizing-addon1">
+							<input type="text" class="" placeholder="add more skills" aria-describedby="sizing-addon1">
 							<span class="icon" id="sizing-addon1"><button class="btn btn-primary">+</button></i></span>
 						</div>
 					</div>
