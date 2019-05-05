@@ -773,12 +773,30 @@ input:checked + .checkbox-slider:before {
     position: relative;
 }
 
-.star-rating .star.half::after, .star-rating .star::before {
+.star-rating .star::before {
     font-family: material-icons;
     content: "\2605";
     display: block;
     color: #febe42;
     font-size: 28px;
+}
+
+.star-rating .star.half::after {
+
+  content: "\2605";
+  color: #eee;
+  font-size: 28px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 50%;
+  overflow: hidden; 
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+
 }
 
 .company-not-rated {
