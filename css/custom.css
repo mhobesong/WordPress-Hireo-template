@@ -736,6 +736,12 @@ input:checked + .checkbox-slider:before {
   margin-top:5px;
 }
 
+.freelancer-name .flag {
+  border-radius: 10px;
+  width: 24px;
+  position: relative;
+  bottom: 4px;
+}
 /****************** Review ******************/
 
 .star-rating::before {
