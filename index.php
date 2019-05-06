@@ -103,7 +103,7 @@
 				<div class="freelancers">
 
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 
 							<!-- Freelancer -->
 							<div class="freelancer">
@@ -149,14 +149,14 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 							<!-- Freelancer -->
 							<div class="freelancer">
 
@@ -201,16 +201,13 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 						</div>
-					</div>
 
-
-					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 
 							<!-- Freelancer -->
 							<div class="freelancer">
@@ -256,14 +253,14 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 							<!-- Freelancer -->
 							<div class="freelancer">
 
@@ -308,17 +305,13 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 						</div>
-					</div>
 
-
-
-					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 
 							<!-- Freelancer -->
 							<div class="freelancer">
@@ -356,14 +349,14 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-6 col-lg-4">
 							<!-- Freelancer -->
 							<div class="freelancer">
 
@@ -408,12 +401,13 @@
 											<li>Job Success <strong>95%</strong></li>
 										</ul>
 									</div>
-									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="width: 360px;">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
+									<a href="single-freelancer-profile.html" class="button button-sliding-icon ripple-effect" style="">View Profile <i class="icon-material-outline-arrow-right-alt"></i></a>
 								</div>
 							</div>
 							<!-- /freelancer -->
 						</div>
 					</div>
+				
 					
 					
 					<!-- pagination -->
@@ -432,6 +426,9 @@
 						</div>
 					<div class="clearfix"></div>
 					<!-- /pagination -->
+
+				</div>
+				<footer>
 
 					<div class="small-footer margin-top-15">
 						<div class="small-footer-copyrights">
@@ -462,8 +459,7 @@
 						<div class="clearfix"></div>
 					</div>
 
-
-				</div>
+				</footer>
 
 			</div>
 		</div>
