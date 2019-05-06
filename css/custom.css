@@ -667,10 +667,6 @@ input:checked + .checkbox-slider:before {
 }
 
 /****************** Freelancers ******************/
-.freelancers .row{
-	margin-bottom: 30px;
-}
-
 .freelancer {
 	display: flex;
 	flex-direction: column;
@@ -681,7 +677,8 @@ input:checked + .checkbox-slider:before {
 	transition: .3s;
 	position: relative;
 	cursor: default;
-	text-align: center;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .freelancer > .row{
@@ -861,6 +858,7 @@ input:checked + .checkbox-slider:before {
 .button.button-sliding-icon {
     padding-left: 20px;
     padding-right: 10px;
+    width: 90%;
 }
 
 body .button i.icon-material-outline-arrow-right-alt {
@@ -1158,4 +1156,9 @@ nav{
   color: #fff;
   font-size: 0px;
   transition: .3s;
+}
+
+/********************* Pagination ********************/
+.pagination-container {
+  text-align: center;
 }
