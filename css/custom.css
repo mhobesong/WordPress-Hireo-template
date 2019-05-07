@@ -469,7 +469,8 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
 */
 .left-colum {
 	padding: 120px 40px 0 40px;
-	background: #fafafa;
+  background: #fafafa;
+  overflow: auto;
 }
 
 .left-colum h3 {
@@ -504,7 +505,8 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
 
 @media only screen and (min-width: 992px) {
 	.left-colum {
-		height: 100vh;
+    height: 100vh !important;
+    width: 100% !important;
 	}
 }
 
@@ -520,7 +522,8 @@ nav .nav.pages li.page_item_has_children:hover > ul.children{
 @media only screen and (min-width: 992px) {
 	.right-colum {
 		padding: 120px 40px 0 40px;
-		height: 100vh;
+    height: 100vh !important;
+    width: 100% !important;
 	}
 }
 
